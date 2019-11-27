@@ -1,0 +1,324 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0D0D0D;
+  overflow-x: hidden;
+  padding-top: 25px;
+
+}
+
+.sidenav a {
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #FFF;
+  display: block;
+  padding-top: 60px;
+  margin-left: 15px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.cover { 
+  background: #0D0D0D;
+  height: 400px;
+}
+
+.bloco {
+
+  background: #0D0D0D;
+  height: 400px;
+}
+
+.blocos {
+  padding-top: 100px;
+  padding-left: 160px;
+
+}
+
+.bloco-maior {
+  background: #0D0D0D;
+  height: 200px;
+}
+
+.destaque {
+  background: #0D0D0D;
+  height: 500px;
+  padding-left: 
+}
+
+.destaques {
+  padding-top: 150px;
+  padding-left: 160px;
+}
+
+.tendencias {
+  padding-top: 100px;
+  padding-left: 140px;
+  font-family: ;
+  font-size: 50px;
+}
+
+body {
+  background-color:black;
+}
+
+.nome {
+  color: white;
+}
+
+.jogos {
+  color: white;
+}
+
+.imagem {
+  height: 100px;
+}
+
+.menu {
+  background: black;
+}
+
+h2 {
+  padding-top:180px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; 
+  margin: 20px;
+  color: white;
+  background-color: #0D0D0D;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #0D0D0D;
+}
+
+.container {
+  margin-left: 200px; 
+  background-color: #0D0D0D;
+}
+
+.logo {
+  padding-left: 25px;
+}
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  background-color: ;
+}
+
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.valor {
+    font-weight: bolder;
+    font-size: 25px;
+    color: black;
+    text-decoration:none;
+
+}
+
+.valorfort{
+  font-weight: bolder;
+  font-size: 25px;
+  color: #11F501;
+  text-decoration:none;
+}
+
+.nomedojogo {
+    font-weight: bolder;
+    font-size: 25px;
+    color: black;
+    text-decoration:none;
+}
+
+body{
+  background: #0D0D0D
+} 
+  
+.sobrenos {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 250px;
+  margin-left: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.texto{
+  font-size: 20px;
+  padding-left: 150px;
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+
+}
+
+.descricaojogo {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 250px;
+  margin-left: 100px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.textojogo {
+    font-size: 20px;
+  padding-left: 150px;
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.button {
+  position: relative;
+  background-color: #4CAF50;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  margin-left: 500px;
+  margin-top: 10px;
+}
+
+.button:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.precojogo {
+  font-size: 50px;
+  margin-left: 470px;
+  color: white;
+  margin-top: 10px;
+}
+
+.valor {
+  font-size: 30px;
+  font-weight: 400; 
+  margin-left: 550px;
+  color: white;
+  margin-top: 140px;
+}
+
+.explorar {
+  padding-top: 100px;
+  padding-left: 140px;
+  font-family: ;
+  font-size: 50px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
